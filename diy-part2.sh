@@ -18,3 +18,8 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+
+rm -rf feeds/kenzo/homeproxy
+rm -rf feeds/kenzo/luci-app-homeproxy
+rm -rf feeds/packages/net/adguardhome
+rm -rf feeds/packages/net/mosdns
