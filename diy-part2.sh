@@ -22,4 +22,6 @@
 rm -rf feeds/kenzo/homeproxy
 rm -rf feeds/kenzo/luci-app-homeproxy
 rm -rf feeds/packages/net/adguardhome
+mv feeds/kenzo/adguardhome feeds/packages/net/adguardhome
 rm -rf feeds/packages/net/mosdns
+mv feeds/small/mosdns feeds/packages/net/mosdns
